@@ -1,6 +1,4 @@
-import dotenv from 'dotenv';
-
-dotenv.config();
+import axios from 'axios';
 
 const BATTLENET_CLIENT_ID = process.env.BATTLENET_CLIENT_ID;
 const BATTLENET_CLIENT_SECRET = process.env.BATTLENET_CLIENT_SECRET;
